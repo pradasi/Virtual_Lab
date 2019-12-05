@@ -21,7 +21,7 @@ function handleClick(){
 				for(var j=0;j< n;j++){
 					input = document.createElement("input");
 					input.type = 'text';
-					input.setAttribute("style","width:80px");
+					input.setAttribute("style","width:80px;color:black");
 					input.setAttribute("class","inp");
 					input.setAttribute("required","");
 					input.id = (IDcount).toString()+'value';
